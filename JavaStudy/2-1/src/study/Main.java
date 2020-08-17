@@ -31,6 +31,10 @@ public class Main {
         	isOdd(num);
         }
 
+        // ↓省略（numいらんかった）・・・
+        //for (int i = 0; i < arr.length; i++) {
+        //isOdd(arr[i]);
+    }
 
 
     }
