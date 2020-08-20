@@ -25,9 +25,4 @@ class Account {
     	System.out.println("IDは、" + this.id);
     	System.out.println("パスワードは、" + this.password);
     }
-
-
-
-
-
 }
