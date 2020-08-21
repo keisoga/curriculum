@@ -24,14 +24,14 @@ public class Study {
     public static void main(String args[]) {
 
         // ① 定数を全て使って、String型のListを記述してください。
-    	
+
     	List<String>shohinList = new ArrayList<String>();
     	shohinList.add(SHOP_SHOHIN_00);
     	shohinList.add(SHOP_SHOHIN_01);
     	shohinList.add(SHOP_SHOHIN_02);
     	shohinList.add(SHOP_SHOHIN_03);
-    	
-    
+
+
     	// エラー : Listを型に解決できません
 //        shohinList = new ArrayList<String>(){
 //    	{
@@ -41,7 +41,7 @@ public class Study {
 //    	add(SHOP_SHOHIN_03);
 //    	}
 //    };
-//    
+//
 
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
@@ -63,6 +63,6 @@ public class Study {
         }
 
 
-        
+
     }
 }
