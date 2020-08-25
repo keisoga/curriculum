@@ -1,0 +1,39 @@
+@media (max-width: 479px){
+     body{
+          width:200px;
+          margin:0 auto;
+     }
+
+     .header{
+          width:200px;
+          height:200px;
+     }
+
+     .header-inner{
+          width:60px;
+          height:160px;
+          flex-direction: column;
+          top:20px;
+          left:70px;
+     }
+     
+     .left{
+          width:200px;
+          height:100px;
+          float:none;
+     }
+
+     .right{
+          width:200px;
+          float:none;
+     }
+
+     .right-inner{
+          top:20px;
+          left:30px;
+     }
+     
+     .footer{
+          width:200px;
+     }
+}
